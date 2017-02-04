@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.rawajad.apprawaj.MainActivity">
-    <Button
 
+    >
+    <ImageView
+        android:id="@+id/iv_Logo"
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="84dp"/>
+    <Button
         android:background="@drawable/bg_btn_start"
-        android:id="@+id/next"
+        android:id="@+id/btn_Start"
+        android:layout_below="@+id/iv_Logo"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="28sp"
         android:padding="16dp"
         android:textAllCaps="false"
         android:textColor="@color/btn_add_color"
-        android:text="NEXT"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="66dp" />
+        android:text="@string/start_exploring"
+        />
+
+
 </RelativeLayout>

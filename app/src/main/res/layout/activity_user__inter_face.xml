@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user__inter_face"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rawajad.rawaj.Activityes.User_InterFace">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+
+    <!--add the background image-->
+    <include
+        layout="@layout/empty_view"/>
+
+</RelativeLayout>
